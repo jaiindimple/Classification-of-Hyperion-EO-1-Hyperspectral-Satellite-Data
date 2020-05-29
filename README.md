@@ -15,8 +15,8 @@ The given assignment has two main tasks:-<br>
 <img src="limitation1.png"></img><br>
 
 2. Second is topographic effects such as shadows of mountains also cause an error in classes as they appear dark and get merged with water classes. The solution to this is doing band rationing or using DEM to create hillshade and mask the shaded portion out.
-<img src="limitation2.png"></img>
-<br>
+<br><img src="limitation2.png"></img><br>
+
 The file named as map.html has a final output shown in the web map and in the Data_processing_EO_1.ipynb notebook file has all the processes. Also python file is attached for those who want to run the code from idle after installing libraries required.
 <br>
 
