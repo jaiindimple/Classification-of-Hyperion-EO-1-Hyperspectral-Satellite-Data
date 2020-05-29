@@ -11,8 +11,11 @@ The given assignment has two main tasks:-<br>
 <p>Geospatial Data Abstraction Library (GDAL) is used to manipulate spatial data such as a stacking of 242 images from gdal_merge function and the gdal_warp function for reprojecting the output tiff file to WGS84 spatial coordinate system from UTM to visualize it on the web map. The matplotlib library of python is used to visualize the image result of the K-means and by using the Elbow plot it explains the variance of 242 components. After executing PCA it reduced the number of components to 3 then I visualized variance using seaborn library<sup>4</sup>.  To better visualize the end result folium python library<sup>5</sup> was used, Colormap was used to show each class with different colors<sup>6</sup>.</p>
 
 <b>Limitation</b>:
-1. The first limitation is the system configuration as while computing PCA for this huge data the RAM which has been used is 12GB in idle. This requires high end systems for processing this hyperspectral data<br>
+1. The first limitation is the system configuration as while computing PCA for this huge data the RAM which has been used is 12GB in idle. This requires high end systems for processing this hyperspectral data
+<img src="limitation1.png"></img><br>
+
 2. Second is topographic effects such as shadows of mountains also cause an error in classes as they appear dark and get merged with water classes. The solution to this is doing band rationing or using DEM to create hillshade and mask the shaded portion out.
+<img src="limitation2.png"></img>
 <br>
 The file named as map.html has a final output shown in the web map and in the Data_processing_EO_1.ipynb notebook file has all the processes. Also python file is attached for those who want to run the code from idle after installing libraries required.
 <br>
