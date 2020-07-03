@@ -30,5 +30,5 @@ The file named as map.html has a final output shown in the web map and in the Da
 3.	scikit-learn: machine learning in Python — scikit-learn 0.23.1 documentation. https://scikit-learn.org/stable/.
 4.	seaborn: statistical data visualization — seaborn 0.10.1 documentation. https://seaborn.pydata.org/.
 5.	folium. PyPI https://pypi.org/project/folium/0.1.5/.
-6.	branca.colormap — branca 0.4.0+6.g75abed2 documentation. https://python-visualization.github.io/branca/colormap.html.
+6.	branca.colormap — branca 0.4.0+6.g75abed2 documentation. https://python-visualization.github.io/branca/colormap.html
 
